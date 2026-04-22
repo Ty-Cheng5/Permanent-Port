@@ -13,3 +13,13 @@ body {
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
     sans-serif;
 }
+
+@layer base {
+  a {
+    @apply text-cyan-400 underline decoration-cyan-400/40 underline-offset-4 transition-colors hover:text-cyan-300 hover:decoration-cyan-300/60;
+  }
+
+  nav a {
+    @apply text-slate-100 no-underline decoration-transparent hover:text-cyan-400;
+  }
+}

@@ -1,3 +1,8 @@
+import pfp from './pictures/pfp.png';
+import LinkedIn from './pictures/LinkedIn.png'
+import Github from './pictures/Github.png'
+
+
 const projects = [
   {
     title: "MBathrooms",
@@ -38,7 +43,11 @@ const projects = [
 
 function App() {
   return (
+
+    
     <div className="min-h-screen bg-slate-950 text-slate-100">
+      
+      <section id="home"> </section>
 
       <header>
 
@@ -78,6 +87,15 @@ function App() {
                 </a>
               </li>
 
+
+              <a href="https://www.linkedin.com/in/ty-senopole-cheng/">
+                <img className="h-6 w-6"src={LinkedIn} alt="LILogo"></img>
+              </a>
+
+              <a href="https://github.com/Ty-Cheng5">
+                <img className="h-7 w-7"src={Github} alt="GHLogo"></img>
+              </a>
+
             </ul>
           </div>
         </nav>
@@ -85,13 +103,13 @@ function App() {
 
       <main className="mx-auto max-w-6xl px-6 py-28">
 
-        <section id="home" className="flex: 1 items-center space-y-12 text-center">
+        <section className="flex: 1 items-center space-y-12 text-center">
 
           <div id="profile" className="flex items-start justify-center gap-6">
             <img
-              src={`${process.env.PUBLIC_URL}/pfp.png`}
+              src={pfp}
               alt="Profile"
-              className="h-40 w-40 shrink-0 rounded-full object-cover ring-2 ring-cyan-400/70"
+              className="scale(1) h-40 w-40 shrink-0 rounded-full object-cover ring-2 ring-cyan-400/70"
             />
             <div className="text-left">
               <h1 className="text-5xl font-semibold leading-tight md:text-8xl">Ty Senopole</h1>
@@ -99,11 +117,6 @@ function App() {
             </div>
           </div>
         </section>
-
-        <div className="flex gap-10">
-          <p>LinkedIn</p>
-          <p>Github</p>
-        </div>
         
         <section id="about" className="py-24 text-center text-slate-400">
         </section>

@@ -106,10 +106,6 @@ function App() {
         </div>
         
         <section id="about" className="py-24 text-center text-slate-400">
-          <img 
-            src={`${process.env.PUBLIC_URL}/About1.png`} />
-          <img
-            src={`${process.env.PUBLIC_URL}/About2.png`} />
         </section>
 
         <h2 className="mb-6 text-2xl font-semibold">Experience</h2>

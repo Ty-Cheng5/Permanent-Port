@@ -55,7 +55,7 @@ function App() {
             >
 
               <li>
-                <a href="#home" className=" ">
+                <a href="#home" className="transition hover:text-cyan-400">
                   Home
                 </a>
               </li>
@@ -85,7 +85,7 @@ function App() {
 
       <main className="mx-auto max-w-6xl px-6 py-28">
 
-        <section id="home" className="flex flex-col items-center space-y-12 text-center">
+        <section id="home" className="flex: 1 items-center space-y-12 text-center">
 
           <div id="profile" className="flex items-start justify-center gap-6">
             <img
@@ -99,14 +99,19 @@ function App() {
             </div>
           </div>
         </section>
+
+        <div className="flex gap-10">
+          <p>LinkedIn</p>
+          <p>Github</p>
+        </div>
         
-        <section id="contact" className="border-t border-slate-800 py-24 text-center text-slate-400">
-          <h2 className="text-2xl font-semibold text-slate-100">About</h2>
-          <p className="mt-4">Add your bio or contact links here.</p>
+        <section id="about" className="py-24 text-center text-slate-400">
+          <img src="{`${process.env.PUBLIC_URL}/About1.png`}" />
+          <img src="{`${process.env.PUBLIC_URL}/About2.png`}" />
         </section>
 
-        <div id="experience" className="w-full max-w-2xl rounded-xl border border-slate-800 bg-slate-900/40 p-6 ">
-          <h2 className="mb-6 text-2xl font-semibold">Experience</h2>
+        <h2 className="mb-6 text-2xl font-semibold">Experience</h2>
+        <section id="experience" className="w-full max-w-2xl rounded-xl border border-slate-800 bg-slate-900/40 p-6 ">
           <ol className="space-y-0">
             <li className="flex gap-5">
               <div className="flex w-4 flex-col items-center">
@@ -129,13 +134,16 @@ function App() {
               <div className="pt-0.5">
                 <h3 className="text-lg font-medium">Michigan Data Science Team</h3>
                 <p className="text-slate-300">Jan. 2026 – Apr. 2026</p>
+                <p className="mt-1 text-sm text-slate-500">
+                  Team Member
+                </p>
               </div>
             </li>
           </ol>
-        </div>
+        </section>
         
 
-        <section id="projects" className="border-t border-slate-800 py-24">
+        <section id="projects" className="py-24">
           <h2 className="mb-4 text-center text-3xl font-semibold">Projects</h2>
           <p className="mx-auto mb-12 max-w-2xl text-center text-slate-300">
             Things I&apos;ve built or contributed to.

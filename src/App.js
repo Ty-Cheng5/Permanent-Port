@@ -47,7 +47,7 @@ const projects = [
 ];
 
 function App() {
-   
+
       return (
 
 

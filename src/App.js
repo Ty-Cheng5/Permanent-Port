@@ -1,4 +1,4 @@
-import { useScrollFade } from './useScrollFade';
+
 
 import pfp from './pictures/pfp.png';
 import LinkedIn from './pictures/LinkedIn.png'
@@ -47,8 +47,8 @@ const projects = [
 ];
 
 function App() {
-    
-  return (
+  
+      return (
 
 
     

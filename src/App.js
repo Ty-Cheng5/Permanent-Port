@@ -1,6 +1,11 @@
+import { useScrollFade } from './useScrollFade';
+
 import pfp from './pictures/pfp.png';
 import LinkedIn from './pictures/LinkedIn.png'
 import Github from './pictures/Github.png'
+import Pic1 from './pictures/About1.jpeg'
+import Pic2 from './pictures/About2.jpg'
+import Pic3 from './pictures/About3.JPG'
 
 
 const projects = [
@@ -42,7 +47,9 @@ const projects = [
 ];
 
 function App() {
+    
   return (
+
 
     
     <div className="min-h-screen bg-slate-950 text-slate-100">
@@ -51,7 +58,7 @@ function App() {
 
       <header>
 
-        <nav className="w-full border-b border-slate-800 bg-slate-900/90 backdrop-blur">
+        <nav className="w-full border-b border-slate-800 bg-slate-900/90 backdrop-blur fixed top-0 left-0 right-0 z-50">
 
           <div
             className="mx-auto flex max-w-6xl flex-row items-center justify-center px-6 py-6"
@@ -101,7 +108,7 @@ function App() {
         </nav>
       </header>
 
-      <main className="mx-auto max-w-6xl px-6 py-28">
+      <main className="mx-auto max-w-6xl px-6 py-28 fade-in" style={{ animationDelay: '0s' }}>
 
         <section className="flex: 1 items-center space-y-12 text-center">
 
@@ -118,11 +125,39 @@ function App() {
           </div>
         </section>
         
-        <section id="about" className="py-24 text-center text-slate-400">
+        <section id="about" className="py-24 text-center text-slate-400 fade-in" style={{ animationDelay: '0s' }}>
+          <h2 className="mb-10 text-3xl font-semibold text-slate-100">About</h2>
+
+          <div className="mx-auto grid max-w-5xl gap-6 sm:grid-cols-2 items-stretch">
+            
+            {/* LEFT COLUMN */}
+            <div className="flex flex-col gap-6 h-full">
+              <img
+                src={Pic1}
+                alt="About 1"
+                className="h-full w-full rounded-2xl object-cover"
+              />
+              <img
+                src={Pic3}
+                alt="About 2"
+                className="h-full w-full rounded-2xl object-cover"
+              />
+            </div>
+
+            {/* RIGHT COLUMN */}
+            <div className="h-full">
+              <img
+                src={Pic2}
+                alt="About 3"
+                className="h-full w-full rounded-2xl object-cover"
+              />
+            </div>
+
+          </div>
         </section>
 
-        <h2 className="mb-6 text-2xl font-semibold">Experience</h2>
-        <section id="experience" className="w-full max-w-2xl rounded-xl border border-slate-800 bg-slate-900/40 p-6 ">
+        <h2 className="mb-10 text-3xl text-center font-semibold fade-in" style={{ animationDelay: '0.4s' }}>Experience</h2>
+        <section id="experience" className="w-full rounded-xl border border-slate-800 bg-slate-900/40 p-6 fade-in" style={{ animationDelay: '0.5s' }}>
           <ol className="space-y-0">
             <li className="flex gap-5">
               <div className="flex w-4 flex-col items-center">
@@ -154,7 +189,7 @@ function App() {
         </section>
         
 
-        <section id="projects" className="py-24">
+        <section id="projects" className="py-24 fade-in" style={{ animationDelay: '0.6s' }}>
           <h2 className="mb-4 text-center text-3xl font-semibold">Projects</h2>
           <p className="mx-auto mb-12 max-w-2xl text-center text-slate-300">
             Things I&apos;ve built or contributed to.

@@ -14,7 +14,7 @@ const projects = [
     description: "Users can rate bathrooms in the University of Michigan campus. Won \"Best use of Cloudflare\" at the University of Michigan Hackathon.",
     stack: ["React", "SQL", "Python", "Cloudflare", "Google Maps"],
     repo: "https://github.com/aotlacan/hackathon-25",
-    live: null,
+    live: "https://flushfinder.pages.dev/",
   },
   {
     title: "Sequential Calculator",

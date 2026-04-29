@@ -159,29 +159,55 @@ function App() {
         <h2 className="mb-10 text-3xl text-center font-semibold fade-in" style={{ animationDelay: '0.4s' }}>Experience</h2>
         <section id="experience" className="w-full rounded-xl border border-slate-800 bg-slate-900/40 p-6 fade-in" style={{ animationDelay: '0.5s' }}>
           <ol className="space-y-0">
+            {/* Experience 1 */}
             <li className="flex gap-5">
               <div className="flex w-4 flex-col items-center">
                 <div className="mt-1.5 h-4 w-4 shrink-0 rounded-full border-2 border-slate-950 bg-cyan-400" />
                 <div className="mt-1 w-0.5 grow bg-slate-700" aria-hidden />
               </div>
               <div className="pb-10 pt-0.5">
-                <h3 className="text-lg font-medium">Research Assistant</h3>
-                <p className="text-slate-300">Aug. 2026 – Apr. 2027</p>
+                <div className="flex flex-col">
+                  <span className="font-bold text-lg">Research Assistant</span>
+                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">University of Michigan</span>
+                  <span className="text-white text-sm">Aug. 2026 – Apr. 2027</span>
+                </div>
                 <p className="mt-1 text-sm text-slate-500">
                   Selected for the Undergraduate Research Opportunity Program (UROP) to conduct engineering-focused research
                 </p>
               </div>
             </li>
-            
+
+            {/* Experience 2 */}
+            <li className="flex gap-5">
+              <div className="flex w-4 flex-col items-center">
+                <div className="mt-1.5 h-4 w-4 shrink-0 rounded-full border-2 border-slate-950 bg-cyan-400" />
+                <div className="mt-1 w-0.5 grow bg-slate-700" aria-hidden />
+              </div>
+              <div className="pb-10 pt-0.5">
+                <div className="flex flex-col">
+                  <span className="font-bold text-lg">Avionics Engineer</span>
+                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Aeronautical Space Association</span>
+                  <span className="text-white text-sm">Apr. 2026 – Present</span>
+                </div>
+                <p className="mt-1 text-sm text-slate-500">
+                  Contributed to avionics systems for student-led aerospace projects.
+                </p>
+              </div>
+            </li>
+
+            {/* Experience 3 */}
             <li className="flex gap-5">
               <div className="flex w-4 flex-col items-center">
                 <div className="mt-1.5 h-4 w-4 shrink-0 rounded-full border-2 border-slate-950 bg-cyan-400" />
               </div>
               <div className="pt-0.5">
-                <h3 className="text-lg font-medium">Michigan Data Science Team</h3>
-                <p className="text-slate-300">Jan. 2026 – Apr. 2026</p>
+                <div className="flex flex-col">
+                  <span className="font-bold text-lg">Team Member</span>
+                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Data Science Team</span>
+                  <span className="text-white text-sm">Jan. 2026 – Apr. 2026</span>
+                </div>
                 <p className="mt-1 text-sm text-slate-500">
-                  Team Member
+                  Participated in data science competitions and collaborative projects.
                 </p>
               </div>
             </li>

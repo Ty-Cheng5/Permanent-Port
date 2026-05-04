@@ -207,7 +207,7 @@ function App() {
                   <span className="text-white text-sm">Jan. 2026 – Apr. 2026</span>
                 </div>
                 <p className="mt-1 text-sm text-slate-500">
-                  Participated in data science competitions and collaborative projects.
+                  Participated in collaborative projects.
                 </p>
               </div>
             </li>

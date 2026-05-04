@@ -6,6 +6,7 @@ import Github from './pictures/Github.png'
 import Pic1 from './pictures/About1.jpeg'
 import Pic2 from './pictures/About2.jpg'
 import Pic3 from './pictures/About3.JPG'
+import Pic4 from './pictures/About4.jpg'
 
 
 const projects = [
@@ -144,13 +145,14 @@ function App() {
               />
             </div>
 
-            {/* RIGHT COLUMN */}
+             {/* RIGHT COLUMN */}
             <div className="h-full">
               <img
                 src={Pic2}
                 alt="About 3"
                 className="h-full w-full rounded-2xl object-cover"
               />
+
             </div>
 
           </div>

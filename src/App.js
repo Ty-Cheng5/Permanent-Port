@@ -38,13 +38,6 @@ const projects = [
     repo: null,
     live: null,
   },
-  {
-    title: "Euchre",
-    description: "Used Object Oriented Programming, Inheritance and Polymorphism, and Recursion to recreate the card game Euchre. ",
-    stack: ["C++"],
-    repo: null,
-    live: null,
-  }
 ];
 
 function App() {

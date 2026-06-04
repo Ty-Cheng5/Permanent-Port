@@ -179,12 +179,12 @@ function App() {
               </div>
               <div className="pb-10 pt-0.5">
                 <div className="flex flex-col">
-                  <span className="font-bold text-lg">Avionics Engineer</span>
-                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Aeronautical Space Association</span>
-                  <span className="text-white text-sm">Apr. 2026 – Present</span>
+                  <span className="font-bold text-lg">Data Analyst</span>
+                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Data Science Team</span>
+                  <span className="text-white text-sm">Jan. 2026 – Apr. 2026</span>
                 </div>
                 <p className="mt-1 text-sm text-slate-500">
-                  Contributed to avionics systems for student-led aerospace projects.
+                  Built data analysis pipelines in Python (Jupyter/Colab) to clean, visualize, and model 2025 NFL player data, generating predictive insights on player performance trends
                 </p>
               </div>
             </li>
@@ -196,12 +196,12 @@ function App() {
               </div>
               <div className="pt-0.5">
                 <div className="flex flex-col">
-                  <span className="font-bold text-lg">Team Member</span>
-                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Data Science Team</span>
-                  <span className="text-white text-sm">Jan. 2026 – Apr. 2026</span>
+                  <span className="font-bold text-lg">Avionics Engineer</span>
+                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Aeronautical Space Association</span>
+                  <span className="text-white text-sm">Sep. 2025 - Present</span>
                 </div>
                 <p className="mt-1 text-sm text-slate-500">
-                  Participated in collaborative projects.
+                  Contributed to avionics systems for student-led aerospace projects.
                 </p>
               </div>
             </li>

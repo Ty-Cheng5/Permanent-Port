@@ -17,11 +17,11 @@ const projects = [
     live: "https://flushfinder.pages.dev/",
   },
   {
-    title: "Sequential Calculator",
-    description: "Configured Controller and Datapath to input commands like Addition, Subtraction, Mutipulcation, and Division. Simulated test cases on FPGA ModelSim.",
-    stack: ["Verilog"],
-    repo: null,
-    live: null,
+    title: "MResearch Site",
+    description: "Creating a Web Application that displays all sorts of Engineering Research and Innovation here at the University of Michigan",
+    stack: ["React"],
+    repo: "https://github.com/Ty-Cheng5/MResearch-site",
+    live: "https://michiganeecs.vercel.app/",
   },
   {
     title: "ECOLLM",
@@ -175,9 +175,8 @@ function App() {
             <li className="flex gap-5">
               <div className="flex w-4 flex-col items-center">
                 <div className="mt-1.5 h-4 w-4 shrink-0 rounded-full border-2 border-slate-950 bg-cyan-400" />
-                <div className="mt-1 w-0.5 grow bg-slate-700" aria-hidden />
               </div>
-              <div className="pb-10 pt-0.5">
+              <div className="pt-0.5">
                 <div className="flex flex-col">
                   <span className="font-bold text-lg">Data Analyst</span>
                   <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Data Science Team</span>
@@ -185,23 +184,6 @@ function App() {
                 </div>
                 <p className="mt-1 text-sm text-slate-500">
                   Built data analysis pipelines in Python (Jupyter/Colab) to clean, visualize, and model 2025 NFL player data, generating predictive insights on player performance trends
-                </p>
-              </div>
-            </li>
-
-            {/* Experience 3 */}
-            <li className="flex gap-5">
-              <div className="flex w-4 flex-col items-center">
-                <div className="mt-1.5 h-4 w-4 shrink-0 rounded-full border-2 border-slate-950 bg-cyan-400" />
-              </div>
-              <div className="pt-0.5">
-                <div className="flex flex-col">
-                  <span className="font-bold text-lg">Avionics Engineer</span>
-                  <span className="font-semibold italic text-slate-300 text-base tracking-wide">Michigan Aeronautical Space Association</span>
-                  <span className="text-white text-sm">Sep. 2025 - Present</span>
-                </div>
-                <p className="mt-1 text-sm text-slate-500">
-                  Contributed to avionics systems for student-led aerospace projects.
                 </p>
               </div>
             </li>
